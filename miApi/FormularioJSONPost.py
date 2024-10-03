@@ -11,6 +11,9 @@ if completed == ("True"):
     completedBoolean = True
     
 
+
+    #POST
+
 api_url ="https://jsonplaceholder.typicode.com/todos/"
 
 # Creamos diccionario con todos los datos del nuevo todo
