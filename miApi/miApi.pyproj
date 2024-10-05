@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>9cd9eadc-8743-4c89-b5f1-1a67461321b3</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>FormularioJSONGetPut.py</StartupFile>
+    <StartupFile>FormularioJSONGet.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,9 +22,11 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="FormularioJSONDelete.py" />
+    <Compile Include="FormularioJSONPut.py" />
     <Compile Include="FormularioJSONPatch.py" />
-    <Compile Include="FormularioJSONGetPut.py" />
+    <Compile Include="FormularioJSONGet.py" />
     <Compile Include="FormularioJSONPost.py" />
+    <Compile Include="CRUD.py" />
     <Compile Include="miApi.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />

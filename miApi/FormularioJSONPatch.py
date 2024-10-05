@@ -2,15 +2,22 @@
 # PATCH, para actualizar datos.
 
 from urllib import response
-import requests
+from pip._vendor import requests
 
-api_url = "https://jsonplaceholder.typicode.com/todos/10"
 
-todo = {"title":"Mow lawn"}
+class JSONPatch:
+    @staticmethod
+    def patch (title, completedBoolean):
 
-# PETICION PATCH
+        api_url = "https://jsonplaceholder.typicode.com/todos/10"
 
-response = requests.patch(api_url, json=todo)
-print(response.json())
-print(response.status_code)
+        # CREACION OBJETO
+
+        todo = {"title":"Mow lawn","completed":completedBoolean}
+
+        # PETICION PATCH
+
+        response = requests.patch(api_url, json=todo)
+        print(response.json())
+        print(response.status_code)
 
