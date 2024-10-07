@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>9cd9eadc-8743-4c89-b5f1-1a67461321b3</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>FormularioJSONGet.py</StartupFile>
+    <StartupFile>Flask.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,6 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Flask.py" />
     <Compile Include="FormularioJSONDelete.py" />
     <Compile Include="FormularioJSONPut.py" />
     <Compile Include="FormularioJSONPatch.py" />
